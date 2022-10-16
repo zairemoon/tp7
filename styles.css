@@ -9,11 +9,23 @@ body {
   margin: 0;
 }
 
+#nav {
+  width: 100%;
+  height: 3rem;
+  background-color: white;
+}
+
+#nav a {
+  font-size: 100%;
+  text-decoration: none;
+  padding-right: 1rem;
+}
+
 #titleBanner {
   position: relative;
   width: 100%;
   height: 50vh;
-  background-image: url(https://images.unsplash.com/photo-1639588473831-dd9d014646ae?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80);
+  background-image: none; url(https://images.unsplash.com/photo-1639588473831-dd9d014646ae?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80)
   background-size: cover;
   background-position: center center;
 }
@@ -37,6 +49,17 @@ body {
 
 #titleBanner h1.pink {
   color: #ff0a54;
+}
+
+#titleBanner h3 {
+  color: #FFFFFF;
+  font-size: 150%;
+  top: 75px;
+  padding: 0;
+  margin: 0 0 2vw 2vw;
+  position: relative;
+  text-align: center;
+  line-height: 100%;
 }
 
 #recipeColumns {
